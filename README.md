@@ -15,15 +15,20 @@ We recommend that developers write primary logic in a scripting language, and GU
 - Providing unified interface to multiple script language.
 
 
-## starcore_for_ios v3.7.3
+## starcore_for_ios v3.7.4
 
-- c/c++, lua, python2.7/3.4/3.5/3.6/3.7/3.8,ruby22/23/24/25
+- c/c++, lua, python2.7/3.4/3.5/3.6/3.7/3.8/3.9,ruby22/23/24/25
 - lua 5.3.5
 - dylib for simulator
 - 32/64bit version
 - Free
 
 ## History of CLE
+### 3.7.4
+- support python 3.9
+- support android api version higher than 29
+- released at 2020/11/15 
+
 ### 3.7.3
 - Fix the installation problem for python3 on macos,version above 10.15
 - Fix the bug of VSEVENT_SYSTEMEVENT_ONDESTROYCHILD event cannot generate before the object is released. Note: to generate this event, you need to set the mask SetChildEventMask(CNodeSetBase, GetLayer(Object), VSSYSEVENT_PROCESS_DESTROY)
