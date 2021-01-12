@@ -15,7 +15,7 @@ We recommend that developers write primary logic in a scripting language, and GU
 - Providing unified interface to multiple script language.
 
 
-## starcore_for_ios v3.7.4
+## starcore_for_ios v3.7.5
 
 - c/c++, lua, python2.7/3.4/3.5/3.6/3.7/3.8/3.9,ruby22/23/24/25
 - lua 5.3.5
@@ -24,6 +24,12 @@ We recommend that developers write primary logic in a scripting language, and GU
 - Free
 
 ## History of CLE
+### 3.7.5
+- Adds functions GetCoreOperationPath/SetCoreLibraryPath/GetCoreLibraryPath/SetShareLibraryPath/GetShareLibraryPath for SRPControlInterface
+- Fix bug of ImportRawContext for java interface on android
+- Adds functions QueryFirstStringKeyEx/QueryNextStringKeyEx/QueryFirstStringKeyAEx/QueryNextStringKeyAEx for BasicSRPInterface and SRPInterface, which returns the index key
+- released at 2021/01/12 
+
 ### 3.7.4
 - support python 3.9
 - support android api version higher than 29
